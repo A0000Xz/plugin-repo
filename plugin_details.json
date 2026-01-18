@@ -1846,7 +1846,7 @@
         "name": "晴空",
         "url": "https://github.com/XXXxx7258"
       },
-      "license": "MIT",
+      "license": "AGPL",
       "host_application": {
         "min_version": "0.10.0"
       },
@@ -1893,7 +1893,7 @@
           "自动降级机制",
           "可配置的搜索引擎顺序",
           "重试机制",
-          "丰���的配置选项",
+          "丰富的配置选项",
           "中文缩写翻译功能",
           "神奇海螺API集成",
           "翻译结果缓存机制"
@@ -4404,7 +4404,7 @@
     "manifest": {
       "manifest_version": 1,
       "name": "戳一戳插件",
-      "version": "1.2.1",
+      "version": "1.2.2",
       "description": "让麦麦能主动戳别人，也能在被戳时回戳并生成自然回复",
       "author": {
         "name": "鲨鱼",
@@ -5345,7 +5345,7 @@
     "manifest": {
       "manifest_version": 1,
       "name": "A_Mind 智能话题管理插件",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "description": "基于大模型的智能话题发起、追踪和回复插件，支持权限控制和自动状态管理",
       "author": {
         "name": "A-Dawn",
