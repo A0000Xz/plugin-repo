@@ -2826,7 +2826,7 @@
     "manifest": {
       "manifest_version": 1,
       "name": "Gemini 绘图",
-      "version": "1.7.8",
+      "version": "1.7.9",
       "description": "使用 Google Gemini API或着其他第三方平台提供的绘图服务，根据图片和提示词生成新图片。（现已支持视频生成）",
       "author": {
         "name": "sakura桜花",
@@ -5317,7 +5317,7 @@
     "manifest": {
       "manifest_version": 1,
       "name": "A_Mind 智能话题管理插件",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "description": "基于大模型的智能话题发起、追踪和回复插件，支持权限控制和自动状态管理",
       "author": {
         "name": "A-Dawn",
@@ -5402,7 +5402,10 @@
           "权限控制系统",
           "大模型集成",
           "自动状态检查",
-          "调试功能支持"
+          "调试功能支持",
+          "话题捕捉与主动介入",
+          "多API密钥轮询",
+          "高级话题策略"
         ]
       },
       "id": "ARC.A_Mind"
