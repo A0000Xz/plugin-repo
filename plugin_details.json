@@ -2559,7 +2559,7 @@
     "manifest": {
       "manifest_version": 2,
       "id": "namchengwuqiu.gemini_drawer",
-      "version": "1.9.11",
+      "version": "1.9.12",
       "name": "Gemini 绘图",
       "description": "使用 Google Gemini API或着其他第三方平台提供的绘图服务，根据图片和提示词生成新图片。（现已支持视频生成）",
       "author": {
@@ -4955,7 +4955,7 @@
     "id": "ARC.A_Mind",
     "manifest": {
       "manifest_version": 2,
-      "version": "1.0.0",
+      "version": "1.0.1",
       "name": "A_Mind 智能话题管理插件",
       "description": "基于大模型的智能话题发起、追踪和回复插件，支持权限控制和自动状态管理",
       "author": {
