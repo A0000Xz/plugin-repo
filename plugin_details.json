@@ -1093,7 +1093,7 @@
           {
             "type": "action",
             "name": "emoji",
-            "description": "发送表情包辅助表达���绪"
+            "description": "发送表情包辅助表达情绪"
           }
         ]
       }
@@ -1482,7 +1482,7 @@
     "manifest": {
       "manifest_version": 2,
       "id": "xinxinxin0.bilibili-video-sender",
-      "version": "2.0.6",
+      "version": "2.0.7",
       "name": "麦麦发 B 站视频",
       "description": "让麦麦解析 B 站视频链接并发送，群聊私聊都可用",
       "author": {
