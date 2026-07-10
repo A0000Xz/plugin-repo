@@ -76,6 +76,39 @@
     }
   },
   {
+    "id": "ShiinaWhite.MaiBot-Roulette-Plugin",
+    "manifest": {
+      "manifest_version": 1,
+      "name": "麦麦轮盘",
+      "version": "1.0.0",
+      "description": "在命运的舞台上，勇士们围坐一圈，手中紧握那把只装有一颗子弹的左轮手枪。每一次扣动扳机，都是对勇气与命运的挑战。枪声响起，欢笑与紧张交织，荣耀与沉默只在一瞬之间。谁会成为这场故事的主角？谁会是下一个被命运选中的人？",
+      "author": {
+        "name": "野生的金属乌帕",
+        "url": "https://github.com/ShiinaWhite"
+      },
+      "license": "AGPL-v3.0",
+      "host_application": {
+        "min_version": "0.8.0",
+        "max_version": "0.8.0"
+      },
+      "keywords": [
+        "game",
+        "russian-roulette",
+        "moderation",
+        "entertainment",
+        "group-management"
+      ],
+      "categories": [
+        "Game",
+        "Moderation",
+        "Entertainment"
+      ],
+      "repository_url": "https://github.com/ShiinaWhite/MaiBot-Roulette-Plugins",
+      "default_locale": "zh-CN",
+      "locales_path": "_locales"
+    }
+  },
+  {
     "id": "Schxar.MaiBot-DoubaoSearch-Plugin",
     "manifest": {
       "manifest_version": 1,
@@ -589,6 +622,73 @@
     }
   },
   {
+    "id": "Schxar.Maibot-Doubao_pic_plugin",
+    "manifest": {
+      "manifest_version": 1,
+      "name": "豆包图片生成插件 (Doubao Image Generator)",
+      "version": "2.0.1",
+      "description": "基于火山引擎豆包模型的AI图片生成插件，支持智能LLM判定、高质量图片生成、结果缓存和多尺寸支持。",
+      "author": {
+        "name": "Schxar",
+        "url": "https://github.com/schxar/doubao_pic_plugin"
+      },
+      "license": "GPL-v3.0-or-later",
+      "host_application": {
+        "min_version": "0.10.2",
+        "max_version": "0.10.2"
+      },
+      "homepage_url": "https://github.com/schxar/doubao_pic_plugin",
+      "repository_url": "https://github.com/schxar/doubao_pic_plugin",
+      "keywords": [
+        "ai",
+        "image",
+        "generation",
+        "doubao",
+        "volcengine",
+        "art"
+      ],
+      "categories": [
+        "AI Tools",
+        "Image Processing",
+        "Content Generation"
+      ],
+      "default_locale": "zh-CN",
+      "locales_path": "_locales",
+      "plugin_info": {
+        "is_built_in": true,
+        "plugin_type": "content_generator",
+        "api_dependencies": [
+          "volcengine"
+        ],
+        "components": [
+          {
+            "type": "action",
+            "name": "doubao_image_generation",
+            "description": "根据描述使用火山引擎豆包API生成高质量图片",
+            "activation_modes": [
+              "llm_judge",
+              "keyword"
+            ],
+            "keywords": [
+              "画",
+              "图片",
+              "生成",
+              "画画",
+              "绘制"
+            ]
+          }
+        ],
+        "features": [
+          "智能LLM判定生成时机",
+          "高质量AI图片生成",
+          "���果缓存机制",
+          "多种图片尺寸支持",
+          "完整的错误处理"
+        ]
+      }
+    }
+  },
+  {
     "id": "schxar.music_plugin",
     "manifest": {
       "manifest_version": 1,
@@ -744,6 +844,53 @@
     }
   },
   {
+    "id": "1021143806.custom_pic_plugin",
+    "manifest": {
+      "manifest_version": 2,
+      "version": "4.1.0",
+      "name": "麦麦绘卷（Claude MAInet）",
+      "description": "基于 MaiBot 的多模型智能绘图插件。兼容 OpenAI、OpenAI-Chat、豆包（火山方舟）、Gemini、魔搭、硅基流动、砂糖云、梦羽、智谱 GLM、阿里百炼 DashScope（通义千问/万相/Z-Image/可灵）、ComfyUI 等多种 API 格式。提供命令式风格转换、自拍模式、自动自拍发说说、日程感知、模型配置管理、运行时聊天流隔离状态、对外 @API 生图接口等功能。",
+      "author": {
+        "name": "Ptrel, Rabbit-Jia-Er, saberlights Kiuon",
+        "url": "https://github.com/1021143806/mais_art_journal"
+      },
+      "license": "GPL-v3.0-or-later",
+      "urls": {
+        "repository": "https://github.com/1021143806/mais_art_journal",
+        "homepage": "https://github.com/1021143806/mais_art_journal",
+        "issues": "https://github.com/1021143806/mais_art_journal/issues"
+      },
+      "host_application": {
+        "min_version": "1.0.0",
+        "max_version": "1.99.99"
+      },
+      "sdk": {
+        "min_version": "2.0.0",
+        "max_version": "2.99.99"
+      },
+      "dependencies": [],
+      "capabilities": [
+        "send.text",
+        "send.image",
+        "send.command",
+        "send.custom",
+        "config.get",
+        "config.get_plugin",
+        "llm.generate",
+        "message.get_by_time_in_chat",
+        "message.get_by_id",
+        "api.call"
+      ],
+      "i18n": {
+        "default_locale": "zh-CN",
+        "supported_locales": [
+          "zh-CN"
+        ]
+      },
+      "id": "1021143806.mais_art_journal"
+    }
+  },
+  {
     "id": "dkdcakedangao.MaiBot-MHWJH-Plugin",
     "manifest": {
       "manifest_version": 1,
@@ -772,6 +919,128 @@
       "host_application": {
         "min_version": "0.9.0",
         "max_version": "0.10.1"
+      }
+    }
+  },
+  {
+    "id": "internetsb.Maizone",
+    "manifest": {
+      "manifest_version": 2,
+      "id": "internetsb.maizone",
+      "version": "3.0.2",
+      "name": "Maizone（麦麦空间）",
+      "description": "让麦麦阅读、评论、点赞、发送QQ空间。为插件提供发送说说接口",
+      "author": {
+        "name": "internetsb",
+        "url": "https://github.com/internetsb"
+      },
+      "license": "MIT",
+      "urls": {
+        "repository": "https://github.com/internetsb/Maizone"
+      },
+      "host_application": {
+        "min_version": "1.0.0",
+        "max_version": "1.99.99"
+      },
+      "sdk": {
+        "min_version": "1.0.0",
+        "max_version": "2.99.99"
+      },
+      "dependencies": [
+        {
+          "type": "plugin",
+          "id": "maibot-team.napcat-adapter",
+          "version_spec": ">=0.1.0"
+        },
+        {
+          "type": "python_package",
+          "name": "bs4",
+          "version_spec": ">=0.0.1"
+        },
+        {
+          "type": "python_package",
+          "name": "json5",
+          "version_spec": ">=0.0.1"
+        },
+        {
+          "type": "python_package",
+          "name": "requests",
+          "version_spec": ">=0.0.1"
+        },
+        {
+          "type": "python_package",
+          "name": "httpx",
+          "version_spec": ">=0.0.1"
+        }
+      ],
+      "capabilities": [
+        "send.text",
+        "llm.generate",
+        "config.get",
+        "llm.get_available_models",
+        "message.get_recent",
+        "api.call",
+        "emoji.get_by_description",
+        "database.get"
+      ],
+      "i18n": {
+        "default_locale": "zh-CN"
+      },
+      "display": {
+        "icon": {
+          "type": "local",
+          "value": "icon.png",
+          "fallback": "package",
+          "background": "#1f2937"
+        }
+      }
+    }
+  },
+  {
+    "id": "Heximiao.acpoke_plugin",
+    "manifest": {
+      "manifest_version": 1,
+      "name": "戳一戳插件",
+      "display_name": "戳一戳插件",
+      "version": "0.5.1",
+      "description": "全新重构的戳一戳插件，做到真正的装载即用！一个主动发起“戳一戳”的 MaiMai 插件，主动发起戳一戳，增添群聊乐趣。",
+      "author": {
+        "name": "何夕",
+        "url": "https://github.com/Heximiao/acpoke_plugin",
+        "email": "lcy1416603026@gmail.com"
+      },
+      "license": "MIT",
+      "host_application": {
+        "min_version": "0.9.0"
+      },
+      "entry": "plugin.py",
+      "homepage_url": "https://github.com/Heximiao/acpoke_plugin",
+      "repository_url": "https://github.com/Heximiao/acpoke_plugin",
+      "keywords": [
+        "poke",
+        "maimai",
+        "互动",
+        "自动戳人",
+        "插件"
+      ],
+      "categories": [
+        "Entertainment & Interaction"
+      ],
+      "default_locale": "zh-CN",
+      "plugin_info": {
+        "is_built_in": false,
+        "plugin_type": "chat",
+        "components": [
+          {
+            "type": "action",
+            "name": "PokeAction",
+            "description": "在合适场景下对目标用户执行戳一戳互动"
+          }
+        ],
+        "features": [
+          "戳一戳",
+          "自动互动"
+        ]
       }
     }
   },
@@ -1246,7 +1515,7 @@
     "id": "XXXxx7258.google_search_plugin",
     "manifest": {
       "manifest_version": 2,
-      "version": "4.0.1",
+      "version": "4.0.2",
       "name": "麦麦联网插件（search plugin）",
       "description": "支持多个搜索引擎的网络搜索、缩写翻译以及图片搜索，并提供自动降级能力。",
       "author": {
@@ -4339,6 +4608,34 @@
       ],
       "default_locale": "zh-CN",
       "locales_path": "_locales"
+    }
+  },
+  {
+    "id": "AkariRin.jrlp",
+    "manifest": {
+      "manifest_version": 1,
+      "name": "今日老婆",
+      "version": "1.1.5",
+      "description": "今天你的群老婆是谁呢",
+      "author": {
+        "name": "梦清",
+        "url": "https://github.com/AkariRin"
+      },
+      "license": "MIT",
+      "host_application": {
+        "min_version": "0.12.1"
+      },
+      "homepage_url": "https://github.com/AkariRin/jrlp-plugin",
+      "repository_url": "https://github.com/AkariRin/jrlp-plugin",
+      "keywords": [
+        "今日老婆",
+        "群老婆",
+        "抽老婆"
+      ],
+      "categories": [
+        "Entertainment & Interaction"
+      ],
+      "id": "AkariRin.jrlp"
     }
   },
   {
