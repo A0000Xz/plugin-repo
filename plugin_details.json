@@ -3031,7 +3031,7 @@
               "/setu - 获取1张随机图片",
               "/setu help - 显示帮助信息",
               "/setu 3 - 获取3张图片",
-              "/setu #萝莉 - 搜��萝莉标签",
+              "/setu #萝莉 - 搜索萝莉标签",
               "/setu 原神 - 搜索原神关键词",
               "/setu #白丝,黑丝 - OR搜索",
               "/setu 5 #风景 横图 - 组合筛选"
@@ -4407,6 +4407,32 @@
         "dependencies": []
       },
       "id": "MorningFeather.safebooru_plugin"
+    }
+  },
+  {
+    "id": "ThelevenFD.wait_remover",
+    "manifest": {
+      "manifest_version": 1,
+      "name": "wait_remover",
+      "version": "1.0.0",
+      "description": "移除wait的action",
+      "author": {
+        "name": "elevenfd",
+        "url": "https://github.com/ThelevenFD"
+      },
+      "license": "MIT",
+      "host_application": {
+        "min_version": "0.11.6",
+        "max_version": ""
+      },
+      "homepage_url": "https://github.com/ThelevenFD/wait_remover",
+      "repository_url": "https://github.com/ThelevenFD/wait_remover",
+      "keywords": [
+        "action"
+      ],
+      "categories": [
+        "Other"
+      ]
     }
   },
   {
